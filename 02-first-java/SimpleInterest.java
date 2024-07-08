@@ -4,7 +4,7 @@ public class SimpleInterest {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter the pricipal Amount: ");
+        System.out.print("Enter the principal Amount: ");
         int principal = input.nextInt();
         System.out.print("Enter the time: ");
         float time = input.nextFloat();
