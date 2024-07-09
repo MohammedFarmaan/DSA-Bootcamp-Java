@@ -12,7 +12,5 @@ public class Subtract_ProductAndSumOfDigit {
         }
         int result = product - sum;
         System.out.println(result);
-
-        code();
     }
 }
