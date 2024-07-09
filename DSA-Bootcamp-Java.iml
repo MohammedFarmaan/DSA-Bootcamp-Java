@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/01-flow-of-program" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02-first-java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03-conditionals-loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03-conditionals-loops/Basic Java Programs" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
     </content>
     <orderEntry type="inheritedJdk" />
