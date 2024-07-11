@@ -6,10 +6,11 @@ public class DistanceBetweenTwoPoints {
 
         double x2 = 5;
         double y2 = 4;
-
-        double distance = Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
-        System.out.println("Distance: " + distance);
-
-
+        System.out.println(distpoint(x1,x2,y1,y2));
+//        double distance = Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
+//        System.out.println("Distance: " + distance);
+    }
+    static double distpoint(double x1, double x2, double y1, double y2){
+        return  Math.sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
     }
 }

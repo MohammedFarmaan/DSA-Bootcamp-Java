@@ -11,11 +11,14 @@ public class FutureInvestmentValue {
         int pv = in.nextInt();
         double r = in.nextInt();
         int n = in.nextInt();
-
-        r = r/100;
-
-        double fv = pv * Math.pow(1 + r, n);
-        System.out.println(fv);
-
+        System.out.println(fiv(pv,r,n));
+//        r = r/100;
+//
+//        double fv = pv * Math.pow(1 + r, n);
+//        System.out.println(fv);
+    }
+    static double fiv(int pv, double r, int n){
+        r = r /100;
+        return pv * Math.pow(1 + r, n);
     }
 }

@@ -6,11 +6,15 @@ public class AreaOfCircle {
 //      Circle area formula = PI * r * r
 
 //      input radius
-        float PI = 3.14f;
+//        float PI = 3.14f;
 
         float radius = in.nextFloat();
 
-        float area = PI * radius * radius;
-        System.out.println(area);
+//        float area = PI * radius * radius;
+//        System.out.println(area);
+        System.out.println(findAreaOfCircle(radius));
+    }
+    static float findAreaOfCircle(float r){
+        return (float) (Math.PI * r * r);
     }
 }

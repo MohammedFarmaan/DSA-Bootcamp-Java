@@ -7,9 +7,12 @@ public class AreaOfParallelogram {
 
         double base = input.nextDouble();
         double height = input.nextDouble();
-
-        double area = base * height;
-
-        System.out.println(area);
+        System.out.println(areaOfParallelogram(base,height));
+//        double area = base * height;
+//
+//        System.out.println(area);
+    }
+    static double areaOfParallelogram(double b, double h){
+        return b * h;
     }
 }

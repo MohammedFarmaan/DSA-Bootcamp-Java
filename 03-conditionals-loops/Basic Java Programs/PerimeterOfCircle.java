@@ -5,10 +5,13 @@ public class PerimeterOfCircle {
         Scanner in = new Scanner(System.in);
 //      Perimeter of a circle = 2 * PI * r
 
-        double PI = 3.14;
+//        double PI = 3.14;
         double r = in.nextDouble();
-
-        double perimeter = 2 * PI * r;
-        System.out.println(perimeter);
+        System.out.println(perimeterOfCircle(r));
+//        double perimeter = 2 * PI * r;
+//        System.out.println(perimeter);
+    }
+    static double perimeterOfCircle(double r){
+        return (2 * Math.PI * r);
     }
 }

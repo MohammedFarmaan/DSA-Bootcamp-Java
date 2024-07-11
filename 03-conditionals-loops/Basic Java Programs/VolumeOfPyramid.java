@@ -8,9 +8,12 @@ public class VolumeOfPyramid {
         double l = in.nextDouble();
         double b = in.nextDouble();
         double h = in.nextDouble();
-
-        double volume = l * b * h * 1/3;
-
-        System.out.println(volume);
+        System.out.println(volOfPyramid(l,b,h));
+//        double volume = l * b * h * 1/3;
+//
+//        System.out.println(volume);
+    }
+    static double volOfPyramid(double l, double b, double h){
+        return l * b * h * 1/3;
     }
 }

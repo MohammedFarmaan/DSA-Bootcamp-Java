@@ -7,8 +7,12 @@ public class AreaOfRectangle {
 
         float length = input.nextFloat();
         float breadth = input.nextFloat();
-
-        float  area = length * breadth;
-        System.out.println(area);
+        System.out.println(areaOfRectangle(length, breadth));
+//        float  area = length * breadth;
+//        System.out.println(area);
+    }
+    static float areaOfRectangle(float l, float b)
+    {
+        return l * b;
     }
 }

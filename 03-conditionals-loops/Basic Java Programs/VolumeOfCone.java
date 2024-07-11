@@ -8,7 +8,12 @@ public class VolumeOfCone {
         double r = in.nextDouble();
         double h = in.nextDouble();
 
-        double volume = (PI * r * r) * h * 1/3;
-        System.out.println(volume);
+        System.out.println(volumeOfCone(r,h));
+
+//        double volume = (PI * r * r) * h * 1/3;
+//        System.out.println(volume);
+    }
+    static double volumeOfCone(double r, double h){
+        return ((Math.PI * r * r) * h * 1/3);
     }
 }

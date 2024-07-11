@@ -7,9 +7,11 @@ public class AreaOfRhombus {
 
         double diagonal1 = input.nextDouble();
         double diagonal2 = input.nextDouble();
-
-        double area = (diagonal1 * diagonal2)/2;
-        System.out.println(area);
+        System.out.println(areOfRhombus(diagonal1, diagonal2));
+//        double area = (diagonal1 * diagonal2)/2;
+//        System.out.println(area);
     }
-
+    static double areOfRhombus(double diagonal1, double diagonal2){
+        return ((diagonal1 * diagonal2)/2);
+    }
 }

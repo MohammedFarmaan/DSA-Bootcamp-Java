@@ -7,8 +7,12 @@ public class PerimeterOfEquilateralTriangle {
 //      a denotes sides
 
         double a = in.nextDouble();
-        double perimeter = 3 * a;
+        System.out.println(perimeterOfEquilateralTriangle(a));
+//        double perimeter = 3 * a;
 
-        System.out.println(perimeter);
+//        System.out.println(perimeter);
+    }
+    static double perimeterOfEquilateralTriangle(double a){
+        return (3 * a);
     }
 }

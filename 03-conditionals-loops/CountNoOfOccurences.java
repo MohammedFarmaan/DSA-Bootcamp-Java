@@ -2,16 +2,29 @@ public class CountNoOfOccurences {
 
     public static void main(String[] args) {
         int n = 155 ;
-        int count = 0;
+        System.out.println(count(n));
+//        int count = 0;
+//
+//        while(n > 0) {
+//            int rem = n % 10;
+//            if (rem == 2) {
+//                count++;
+//            }
+//            n = n / 10;
+//        }
+//
+//        System.out.println(count);
+    }
 
-        while(n > 0) {
+    static int count(int n){
+        int count = 0;
+        while(n > 0){
             int rem = n % 10;
-            if (rem == 2) {
+            n /= 10;
+            if (rem == 5){
                 count++;
             }
-            n = n / 10;
         }
-
-        System.out.println(count);
+        return count;
     }
 }

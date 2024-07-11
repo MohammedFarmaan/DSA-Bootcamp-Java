@@ -7,8 +7,12 @@ public class PerimeterOfRectangle {
 
         double l = in.nextDouble();
         double b = in.nextDouble();
+        System.out.println(perimeterOfRectangle(l, b));
+//        double perimeter = 2 * (l + b);
+//        System.out.println(perimeter);
+    }
 
-        double perimeter = 2 * (l + b);
-        System.out.println(perimeter);
+    static double perimeterOfRectangle(double l, double b){
+        return (2 * (l + b));
     }
 }

@@ -6,9 +6,12 @@ public class CalculateCgpa {
 //      CGPA = (Total Percentage ÷ Total Semesters) ÷ 9.5
         int totalPercentage = in.nextInt();
         int totalSemesters = in.nextInt();
-
-        double cgpa =((totalPercentage/totalSemesters)/9.5) * 10;
-
-        System.out.println(cgpa);
+        System.out.println(cgpa(totalPercentage, totalSemesters));
+//        double cgpa =((totalPercentage/totalSemesters)/9.5) * 10;
+//
+//        System.out.println(cgpa);
+    }
+    static int cgpa(int tp, int ts){
+        return (int) (((tp/ts)/9.5 ) * 10);
     }
 }

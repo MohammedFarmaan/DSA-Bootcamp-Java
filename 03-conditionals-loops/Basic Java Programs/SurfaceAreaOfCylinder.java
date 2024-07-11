@@ -8,9 +8,13 @@ public class SurfaceAreaOfCylinder {
         double PI = 3.14;
         double r = in.nextDouble();
         double h = in.nextDouble();
+        System.out.println(surfaceAreaOfCylinder(r, h));
 
-        double surface_area = 2 * PI * r * h;
-
-        System.out.println(surface_area);
+//        double surface_area = 2 * PI * r * h;
+//
+//        System.out.println(surface_area);
+    }
+    static double surfaceAreaOfCylinder(double r, double h){
+        return (2 * Math.PI * r * h);
     }
 }

@@ -8,7 +8,11 @@ public class CommissionPercentage {
         double total_sales = in.nextDouble();
         double commission_percent = in.nextDouble();
 
-        double commission = total_sales * commission_percent/100;
-        System.out.println(commission);
+        System.out.println(comPercent(total_sales, commission_percent));
+//        double commission = total_sales * commission_percent/100;
+//        System.out.println(commission);
+    }
+    static double comPercent(double ts, double cp){
+        return ts * cp/100;
     }
 }

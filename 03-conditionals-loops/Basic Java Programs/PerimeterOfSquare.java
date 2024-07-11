@@ -6,7 +6,11 @@ public class PerimeterOfSquare {
 //      Perimeter of square = 4a, a = sides
 
         double a = in.nextDouble();
-        double perimeter = 4*a;
-        System.out.println(perimeter);
+        System.out.println(perimeterOfSquare(a));
+//        double perimeter = 4*a;
+//        System.out.println(perimeter);
+    }
+    static double perimeterOfSquare(double a) {
+        return 4 * a;
     }
 }

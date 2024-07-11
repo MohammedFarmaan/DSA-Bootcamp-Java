@@ -6,8 +6,12 @@ public class AreaOfEquilateralTriangle {
 //      Area of equilateral triangle = sqrt(3/4) * s*s
 
         double side = in.nextDouble();
-        double area = (Math.sqrt(3)/4) * side * side;
+        System.out.println(areaOfEquilateralTriangle(side));
+//        double area = (Math.sqrt(3)/4) * side * side;
 
-        System.out.println(area);
+//        System.out.println(area);
+    }
+    static double areaOfEquilateralTriangle(double s){
+        return ((Math.sqrt(3)/4) * s * s);
     }
 }

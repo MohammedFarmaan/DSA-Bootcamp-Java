@@ -12,4 +12,11 @@ public class VowelOrConsonant {
             System.out.println("Consonant");
         }
     }
+    static void check(char ch){
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+            System.out.println("vowel");
+        }else {
+            System.out.println("consonants");
+        }
+    }
 }

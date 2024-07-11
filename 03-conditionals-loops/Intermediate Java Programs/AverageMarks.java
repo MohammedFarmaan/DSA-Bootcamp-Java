@@ -6,8 +6,11 @@ public class AverageMarks {
 
         int totalMarks = in.nextInt();
         int totalSubjects = in.nextInt();
-
-        int avgMarks = totalMarks/totalSubjects;
-        System.out.println(avgMarks);
+        System.out.println(avgMarks(totalMarks,totalSubjects));
+//        int avgMarks = totalMarks/totalSubjects;
+//        System.out.println(avgMarks);
+    }
+    static int avgMarks(int tm, int ts){
+        return tm/ts;
     }
 }

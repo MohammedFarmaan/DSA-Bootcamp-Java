@@ -5,10 +5,15 @@ public class SumOfTwoNumbers {
 
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        int sum = num1 + num2;
+        System.out.println(sum(num1, num2));
 
-        System.out.println(sum);
+//        int sum = num1 + num2;
+//
+//        System.out.println(sum);
         
         sc.close();
+    }
+    static int sum(int num1, int num2){
+        return num1 + num2;
     }
 }

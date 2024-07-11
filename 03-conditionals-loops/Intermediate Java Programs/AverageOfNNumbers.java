@@ -5,14 +5,24 @@ public class AverageOfNNumbers {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter total n number: ");
         int n = in.nextInt();
-        int count = 0;
-        double sum = 0;
-        while(n > count){
-            double number = in.nextDouble();
-            sum += number;
-            count++;
+        System.out.println(avg(n));
+//        int count = 0;
+//        double sum = 0;
+//        while(n > count){
+//            double number = in.nextDouble();
+//            sum += number;
+//            count++;
+//        }
+//        double average = sum/n;
+//        System.out.println("Average of " + n + " numbers: " + average);
+    }
+    static int avg(int n){
+        int sum = 0;
+        Scanner in = new Scanner(System.in);
+        for(int i = 0; i < n; i++){
+            int num = in.nextInt();
+            sum += num;
         }
-        double average = sum/n;
-        System.out.println("Average of " + n + " numbers: " + average);
+        return sum/n;
     }
 }

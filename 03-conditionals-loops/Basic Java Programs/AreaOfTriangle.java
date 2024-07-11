@@ -13,4 +13,7 @@ public class AreaOfTriangle {
 
         System.out.println(area);
     }
+    static float areOfTriangle(int b, int h){
+        return (float) ((0.5) * b * h);
+    }
 }

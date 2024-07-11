@@ -8,9 +8,12 @@ public class VolumeOfPrism {
         double l = in.nextDouble();
         double w = in.nextDouble();
         double h = in.nextDouble();
+        System.out.println(volOfPrism(l, w, h));
+//        double volume = l * w * h;
+//        System.out.println(volume);
 
-        double volume = l * w * h;
-        System.out.println(volume);
-
+    }
+    static double volOfPrism(double l, double w, double h){
+        return l * w * h;
     }
 }

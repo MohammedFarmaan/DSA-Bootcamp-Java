@@ -11,9 +11,12 @@ public class SimpleInterest {
         System.out.print("Enter the rate: ");
         float rate = input.nextFloat();
 
-        float  simpleInterest = (principal * time * rate) / 100;
-
-        System.out.println(simpleInterest);
-
+//        float  simpleInterest = (principal * time * rate) / 100;
+//
+//        System.out.println(simpleInterest);
+        System.out.println(si(principal, rate, time));
+    }
+    static float si(int p, float t, float r){
+        return ((p * r * t) /100);
     }
 }

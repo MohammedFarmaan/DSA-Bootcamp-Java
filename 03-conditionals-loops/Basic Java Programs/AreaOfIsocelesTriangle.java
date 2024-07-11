@@ -8,8 +8,11 @@ public class AreaOfIsocelesTriangle {
 
         double b = input.nextDouble();
         double a = input.nextDouble();
-
-        double area = b/2 * Math.sqrt(a*a - (b*b/4));
-        System.out.println(area);
+        System.out.println(areaOfIsocelesTriangle(a,b));
+//        double area = b/2 * Math.sqrt(a*a - (b*b/4));
+//        System.out.println(area);
+    }
+    static double areaOfIsocelesTriangle(double a, double b){
+        return ((b/2) * (Math.sqrt(((a*a) - ((b*b)/4)))));
     }
 }

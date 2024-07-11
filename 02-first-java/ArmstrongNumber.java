@@ -26,10 +26,22 @@ public class ArmstrongNumber {
         int num2 = input.nextInt();
 
         for (int i = num1; i <= num2; i++) {
-            if(isArmstrong(i)) {
+            if(armstrong(i)) {
                 System.out.println(i +" is an Armstrong number");
             }
         }
         input.close();
+    }
+
+    static boolean armstrong(int n){
+        int numDigit = String.valueOf(n).length();
+        int sum = 0;
+        int originalNumber = n;
+        while(n > 0){
+            int rem = n % 10;
+            n /= 10;
+            sum += (int) Math.pow(rem, numDigit);
+        }
+        return originalNumber == sum;
     }
 }

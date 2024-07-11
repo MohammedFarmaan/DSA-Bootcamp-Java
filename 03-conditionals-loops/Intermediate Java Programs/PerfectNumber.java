@@ -5,18 +5,30 @@ public class PerfectNumber {
         Scanner in = new Scanner(System.in);
 
         int n = in.nextInt();
-        int sum = 0;
+        System.out.println(perfect(n));
+//        int sum = 0;
+//        int factor = 1;
+//        while(n > factor){
+//            if (n % factor == 0){
+//                sum += factor;
+//            }
+//            factor++;
+//        }
+//        if (n == sum) {
+//            System.out.println("Perfect number");
+//        } else{
+//            System.out.println("Not a perfect number");
+//        }
+    }
+    static boolean perfect(int n){
         int factor = 1;
+        int sum = 0;
         while(n > factor){
             if (n % factor == 0){
                 sum += factor;
             }
             factor++;
         }
-        if (n == sum) {
-            System.out.println("Perfect number");
-        } else{
-            System.out.println("Not a perfect number");
-        }
+        return n == sum;
     }
 }

@@ -9,8 +9,13 @@ public class DepreciationOfValue {
         int originalValue = in.nextInt();
         int r = in.nextInt();
         int years = in.nextInt();
-        double rPercent = (double) (100 - 10)/100;
-        double newValue = originalValue * Math.pow(rPercent, years);
-        System.out.println(newValue);
+        System.out.println(depValue(originalValue,r,years));
+//        double rPercent = (double) (100 - 10)/100;
+//        double newValue = originalValue * Math.pow(rPercent, years);
+//        System.out.println(newValue);
+    }
+    static double depValue(int ov, int r, int y){
+        double rp = (double) (100-10) /100;
+        return ov * Math.pow(rp, y);
     }
 }
