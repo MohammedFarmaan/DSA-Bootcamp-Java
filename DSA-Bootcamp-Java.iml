@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/03-conditionals-loops/Basic Java Programs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03-conditionals-loops/Intermediate Java Programs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04-functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05-arrays" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
     </content>
     <orderEntry type="inheritedJdk" />
