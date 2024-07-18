@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/04-functions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-arrays/leetcode-easy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05-arrays/leetcode-medium" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
     </content>
     <orderEntry type="inheritedJdk" />
