@@ -2,6 +2,9 @@ public class GuessNumber {
     public static void main(String[] args) {
 
     }
+    static int guess(int n){
+        return n;
+    }
     public static int guessNumber(int n) {
         int start = 1;
         int end = n;
