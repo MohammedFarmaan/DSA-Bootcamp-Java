@@ -12,11 +12,13 @@
       <sourceFolder url="file://$MODULE_DIR$/05-arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-arrays/leetcode-easy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-arrays/leetcode-medium" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Searching" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Searching/leetcode" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Searching/leetcode/easy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Searching/leetcode/medium" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Searching/leetcode/hard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-searching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-searching/leetcode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-searching/leetcode/easy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-searching/leetcode/hard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-searching/leetcode/medium" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-strings/leetcode-easy" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
     </content>
     <orderEntry type="inheritedJdk" />
