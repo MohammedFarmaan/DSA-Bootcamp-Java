@@ -5,6 +5,7 @@ public class InsertStringToString {
         String strToInsert = "for";
         System.out.println(insertString(str,index,strToInsert));
     }
+
     static String insertString(String str, int index, String strToInsert){
         StringBuilder result = new StringBuilder(str);
         result.insert(index + 1, strToInsert);
