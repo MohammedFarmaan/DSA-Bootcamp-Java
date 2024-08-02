@@ -2,7 +2,7 @@
 // like 2 x 18 and 18 * 2 etc;
 public class OptimisedPrimeNumber {
     public static void main (String[] args) {
-        int num = 8;
+        int num = 5;
         System.out.println(isPrime(num));
 //        int c = 2;
 //

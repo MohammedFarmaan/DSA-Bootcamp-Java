@@ -1,6 +1,6 @@
 public class PrimeNumber {
     public static void main (String[] args) {
-        int num = 36;
+        int num = 3;
         System.out.println(isPrime(num));
 //        int c = 2;
 //        boolean flag = true;
